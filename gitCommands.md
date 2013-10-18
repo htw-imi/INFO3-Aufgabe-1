@@ -19,3 +19,6 @@ git checkout -b someName (create a new branch and directly switch to it)
 git branch -d someName (delete a branch)
 
 git merge someBranch (merge a branch into the branch you are currently in)
+
+git reset --hard HEAD~1 (discard your last commit)
+git reset --hard HEAD~2 (discard your 2 last commits)
