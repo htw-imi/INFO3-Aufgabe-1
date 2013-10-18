@@ -30,7 +30,7 @@ Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 
 Now you can install your desired rvm version, for example:
 
-xyz@ubuntu:~$ rvm install 1.9.6
+xyz@ubuntu:~$ rvm install 1.9.3
 
 By the way, Ruby will get installed automatically. Next, we just make sure
 that the gem packet manager is up to date:
