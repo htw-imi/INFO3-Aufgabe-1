@@ -22,3 +22,5 @@ git merge someBranch (merge a branch into the branch you are currently in)
 
 git reset --hard HEAD~1 (discard your last commit)
 git reset --hard HEAD~2 (discard your 2 last commits)
+
+git remote add <remoteName> <remoteUrl> (Add a new remote repository)
