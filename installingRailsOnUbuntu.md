@@ -4,11 +4,13 @@ From my experience it's the easiest and most efficient way.
 Before we get started you should get Curl and some other libraries 
 in order to setup your system:
 
-xyz@ubuntu:~$ sudo apt-get install curl git-core patch \
-   build-essential bison zlib1g-dev libssl-dev libxml2-dev \
-   libxml2-dev sqlite3 libsqlite3-dev autotools-dev \
-   libxslt1-dev libyaml-0-2 autoconf automake libreadline6-dev \
+xyz@ubuntu:~$ sudo apt-get install curl git-core patch
+   build-essential bison zlib1g-dev libssl-dev libxml2-dev
+   libxml2-dev sqlite3 libsqlite3-dev autotools-dev
+   libxslt1-dev libyaml-0-2 autoconf automake libreadline6-dev
    libyaml-dev libtool
+   
+   
 
 Now you can begin with the installation of RVM:
 
@@ -30,7 +32,7 @@ Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 
 Now you can install your desired rvm version, for example:
 
-xyz@ubuntu:~$ rvm install 1.9.3
+xyz@ubuntu:~$ rvm get stable
 
 By the way, Ruby will get installed automatically. Next, we just make sure
 that the gem packet manager is up to date:
