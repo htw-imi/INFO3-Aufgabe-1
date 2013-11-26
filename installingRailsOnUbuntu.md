@@ -11,6 +11,16 @@ xyz@ubuntu:~$ sudo apt-get install curl git-core patch
    libyaml-dev libtool
    
    
+I have experienced that the following packages are also necessary, especially if 
+you work with postgresql
+
+postgresql
+libpq-dev
+
+Also, you need to download node.js or something similar. Node.js is just fine. Please
+see the webpage for details and download:
+
+http://nodejs.org/
 
 Now you can begin with the installation of RVM:
 
