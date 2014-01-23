@@ -40,12 +40,13 @@ The shell should show something like this:
 rvm 1.23.8 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, 
 Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 
-Now you can install your desired rvm version, for example:
-
-xyz@ubuntu:~$ rvm get stable
-
 Now you can install Ruby:
 
+xyz@ubuntu:~$ rvm list known
+
+to see a list of known ruby versions. Choose one, you can copy it and paste it in the next step:
+
+xyz@ubuntu:~$ rvm install [your-desired-ruby-version]
 
 Next, we just make sure that the gem packet manager is up to date:
 
@@ -61,5 +62,5 @@ xyz@ubuntu:~$ rails -v
 
 It should print something like this:
 
-Rails 4.0.0
+Rails 4.0.0 or some other version.
 
