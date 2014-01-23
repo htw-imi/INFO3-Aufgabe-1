@@ -44,8 +44,10 @@ Now you can install your desired rvm version, for example:
 
 xyz@ubuntu:~$ rvm get stable
 
-By the way, Ruby will get installed automatically. Next, we just make sure
-that the gem packet manager is up to date:
+Now you can install Ruby:
+
+
+Next, we just make sure that the gem packet manager is up to date:
 
 xyz@ubuntu:~$ gem update
 
