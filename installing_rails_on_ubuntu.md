@@ -4,6 +4,8 @@ From my experience it's the easiest and most efficient way.
 Before we get started you should get Curl and some other libraries 
 in order to setup your system:
 
+(you can actually skip this step. rvm will install all this automatically)
+
 xyz@ubuntu:~$ sudo apt-get install curl git-core patch
    build-essential bison zlib1g-dev libssl-dev libxml2-dev
    libxml2-dev sqlite3 libsqlite3-dev autotools-dev
