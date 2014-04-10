@@ -20,7 +20,8 @@ postgresql
 libpq-dev
 
 Also, you need to download node.js or something similar. Node.js is just fine. Please
-see the webpage for details and download:
+see the webpage for details and download: (I actually just needed this in one tutorial
+that I did. I have worked with Rails without Node.js installed. Some gems require it.)
 
 http://nodejs.org/
 
