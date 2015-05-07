@@ -28,16 +28,22 @@ http://nodejs.org/
 
 Now you can begin with the installation of RVM:
 
+```shell
 xyz@ubuntu:~$ curl -L https://get.rvm.io | bash -s stable
+```
 
 Now you should restart your terminal/bash/shell or read in the RVM script
 as follows:
 
+```shell
 xyz@ubuntu:~$ source ~/.rvm/scripts/rvm
+```
 
 Test whether you have succesfully installed RVM with the following code:
 
+```shell
 xyz@ubuntu:~$ rvm -v
+```
 
 The shell should show something like this: 
 
@@ -46,23 +52,33 @@ Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 
 Now you can install Ruby:
 
+```shell
 xyz@ubuntu:~$ rvm list known
+```
 
 to see a list of known ruby versions. Choose one, you can copy it and paste it in the next step:
 
+```shell
 xyz@ubuntu:~$ rvm install [your-desired-ruby-version]
+```
 
 Next, we just make sure that the gem packet manager is up to date:
 
+```shell
 xyz@ubuntu:~$ gem update
+```
 
 You can go ahead now and install Rails: 
 
+```shell
 xyz@ubuntu:~$ gem install rails
+```
 
 Check if all went alright by typing: 
 
+```shell
 xyz@ubuntu:~$ rails -v
+```
 
 It should print something like this:
 
